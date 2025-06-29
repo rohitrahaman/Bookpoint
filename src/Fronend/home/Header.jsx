@@ -18,13 +18,13 @@ function Header() {
           <div className="flex items-center gap-10">
             <ul className="flex items-center gap-4 text-gray-400 font-semibold">
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Shop</a>
+                <a href="/shop">Shop</a>
               </li>
               <li>
                 <a href="#">Contact</a>

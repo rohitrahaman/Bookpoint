@@ -12,6 +12,7 @@ import Summary from "./pages/Summary.jsx";
 import Wallets from "./pages/Wallets.jsx";
 import FrontendLayout from "./Component/FrontendLayout.jsx";
 import Deshbord from "./pages/Deshbord.jsx";
+import Shop from "./pages/Shop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<FrontendLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
         </Route>
         <Route path="/admin" element={<Layout />}>
           <Route path="" element={<Deshbord />} />
