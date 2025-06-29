@@ -3,7 +3,7 @@ import { LuBellRing } from "react-icons/lu";
 
 function Header() {
   return (
-    <section className="bg-[url(img/nabbackg.jpg)] min-h-16 py-2">
+    <section className="bg-[url('/img/nabbackg.jpg')] min-h-16 py-2">
       <div className="max-w-7xl mx-auto text-white">
         {/* logo */}
         <div className="flex items-center justify-between ">

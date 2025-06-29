@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="bg-[url(img/footert.png)] min-h-[600px] text-white">
+      <div className="bg-[url('/img/footert.png')] min-h-[600px] text-white">
         <div className="flex mx-auto items-center px-5 ">
           <div className="w-2/3 ">
             <img src="img/bookimg.png" alt="" />

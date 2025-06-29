@@ -2,7 +2,7 @@ import React from "react";
 
 function Herosec() {
   return (
-    <section className="bg-[url(img/bodyhead.png)] min-h-[600px] bg-center">
+    <section className="bg-[url('/img/bodyhead.png')] min-h-[600px] bg-center">
       <div className="mx-auto max-w-4xl text-white text-center flex flex-col gap-5">
         <h2 className="text-yellow-700 font-semibold text-4xl ">
           The Book Lover's Dreamland Awaits!
